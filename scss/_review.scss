@@ -1,0 +1,135 @@
+.review{
+h1{
+	text-transform: uppercase;
+	padding-top: 4rem;
+	text-align: center;
+	font: 3.4rem $text-light;
+	color: #1a1645;
+}
+.tabs-block{
+.container{
+	padding-top: 4rem;
+.tabcontent .list{
+	border-bottom: 9rem solid #e6f1f5;
+li{
+&:nth-child(3){
+	background: #f7fafb;
+}
+&:last-child{
+	background: #fff;
+}
+&:nth-child(2) span{
+	font-family: $text-bold;
+}
+span{
+	select{
+	max-width: 134.9rem;
+	width: 100%;
+	height: 3.9rem;
+	cursor: pointer;
+	font: 1.4rem $text;
+	-webkit-box-shadow: 0 0 0.4rem rgba(24, 24, 24, 0.17);
+	        box-shadow: 0 0 0.4rem rgba(24, 24, 24, 0.17);
+	border-radius: 0.5rem;
+	padding-left: 1.4rem;
+	 -webkit-appearance: none; 
+   	 -moz-appearance: none;
+   		appearance: none; 
+   		background-color: #fff;
+   		  background-image: url(../img/arrow.svg);
+   		  background-repeat: no-repeat;  
+		 background-position: 98%;
+option{
+	font: 1.4rem $text;
+}
+}
+select::-ms-expand{
+    display: none;
+}
+div{
+	display: inline-block;
+}
+label{
+	position: relative;
+	cursor: pointer;
+	white-space: nowrap;
+	line-height: 3rem;
+	padding: 0 0.8rem 0 3rem;
+ -webkit-user-select: none;
+  	-moz-user-select: none;
+  		-ms-user-select: none;
+  			user-select: none;
+input{
+	 position: absolute;
+  	opacity: 0;
+  	cursor: pointer;
+}
+.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  -webkit-box-shadow: 0 0 0.4rem rgba(24, 24, 24, 0.17);
+          box-shadow: 0 0 0.4rem rgba(24, 24, 24, 0.17);
+  background: #fff;
+  border-radius: 50%;
+}
+&:hover input ~ .checkmark {
+  background: rgba(204, 204, 204, 0.5);
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+input:checked ~ .checkmark:after {
+  display: block;
+}
+.checkmark:after {
+ 	top: 0.5rem;
+	left: 0.5rem;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	background: #39a7dc;
+}
+}
+form{
+	position: relative;
+textarea{
+	max-width: 134.9rem;
+	width: 100%;
+	height: 17.9rem;
+	-webkit-box-shadow: 0 0 0.4rem rgba(24, 24, 24, 0.17);
+	        box-shadow: 0 0 0.4rem rgba(24, 24, 24, 0.17);
+	border-radius: 0.5rem;
+	background: #fff;
+	resize:none;
+	overflow: auto;
+}
+input[type=submit]{
+	position: absolute;
+	bottom: -9rem;
+	left: 0;
+	color: #010101;
+	line-height: 4.2rem;
+	background: #ffba00;
+	border-radius: 2.1rem;
+	cursor: pointer;
+&:hover{
+	background: lighten(#ffba00, 10%);
+}
+}
+.confirm{
+	max-width: 22.4rem;
+	width: 100%;
+}
+}
+}
+}
+}
+}
+}
+}
+

@@ -1,0 +1,62 @@
+.footer{
+	background: #1a1645;
+.container{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	padding: 10rem 1.5rem 10rem;
+	font-size: 1.6rem;
+ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+li{
+	-webkit-box-shadow: 0.1rem 0 0 0 rgba(255, 255, 255, 0.5);
+	        box-shadow: 0.1rem 0 0 0 rgba(255, 255, 255, 0.5);
+a{
+	color: #00b2d2;
+	padding: 0 1rem;
+&:hover{
+	color: lighten(#00b2d2, 15%);
+}
+}
+&:last-child{
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+}
+}
+}
+.copy-block{
+	color: #fff;
+	padding: 2rem 0 5rem 0;
+}
+.link-bottom{
+a{
+	margin: 0 1.5rem;
+&:hover{
+	opacity: 0.8;
+}
+}
+.icon-facebook{
+	color: #5b7baf;
+	font-size: 2.5rem;
+}
+}
+}
+}
+
+@media screen and (max-width: 992px){
+.footer .container{
+	padding: 5rem 1.5rem 5rem;
+.link-bottom{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+a{
+	margin: 1.5rem;
+}
+}
+}
+}

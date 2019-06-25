@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>State Reporting Dashboard</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="chat d-flex"><i class="icon-chat"></i><span>chat</span></div>
+			<div class="container">
+				<div class="block-logo">
+					<a href="page3.html"><div class="logo"><img src="img/logo.svg" alt="State Reporting Dashboard" width="118" height="49"></div></a>
+					<h1>Nebraska <span>State Electrical Division</span></h1>
+				</div>
+				<div class="chat-block">
+					<div class="icon-bell"><span>1</span></div>
+				</div>
+				<form>
+					<button type="submit"><svg width="15" height="15">
+						<use xlink:href="img/search.svg#search"></use>
+					</svg></button>
+					<input type="text" name="search" placeholder="Course Lookup"> 
+				</form>
+				<div class="profile">
+					<svg width="15" height="15">
+						<use xlink:href="img/user.svg#user"></use>
+					</svg>
+					Hello Matthew<i class="icon-down-open"></i></div>
+				</div>
+			</header>
+			<main>
+				<div class="tabs-block">
+					<div class="container">
+						<div class="link-division">
+								<a href="#" class="active-link">Nebraska State Electrical Division</a>
+								<a href="#">Arkansas Board of Electrical Examiners</a>
+						</div>
+						<div class="tab">
+							<button class="tablinks active" onclick="openCity(event, 'License')" id="defaultOpen">
+								<svg width="25" height="28">
+									<use xlink:href="img/License.svg#license"></use>
+								</svg>
+							License Information</button>
+							<button class="tablinks" onclick="openCity(event, 'State')" id="statetitle">
+								<svg width="28" height="21">
+									<use xlink:href="img/State.svg#state"></use>
+								</svg>
+							State Requirements</button>
+						</div>
+						<div id="License" class="tabcontent">
+							<ul class="list">
+								<li><span>Agency:</span>
+									<span>Nebraska State Electrical Division</span>
+								</li>
+								<li>
+									<span>Profession:</span>
+									<span>Nebraska Electrician</span>
+								</li>
+								<li>
+									<span>License Type:</span>
+									<span>Apprentice</span>
+								</li>
+								<li>
+									<span>License Number:</span>
+									<span>25457</span>
+								</li>
+								<li>
+									<span>Expiration:</span>
+									<span>12/31/2020</span>
+								</li>
+							</ul>			
+						</div>
+
+						<div id="State" class="tabcontent state">
+							<ul class="list">
+								<li>
+									<h3>Post-License Education Requirements</h3>
+									<p>It is important to note tdat tdere is a distinct differece in post-license education and continuing education. Post-license education is a one-time requirement tdat requires tde student to pass an examination on course content whereas continuing education is an annual requirement tdat must be completed each year, as a prerequisite for license renewal</p>
+									<p>In tde year completed, post-license education hours may be used to satisfy a portion of tde 12-hour annual continuing education requirement, however, post-license education hours will not satisfy tde mandatory continuing education course topic(s) specified by tde commission.</p>
+									<p>All initial licensees are required to complete 45 post-license education hours witdin 180 days after tde initial license date. Post-licensing education courses are available only tdrough LREC state certified education providers</p>
+								</li>
+								<li>
+									<h3>Continuing Education Requirements</h3>
+									<p>All active real estate licensees must complete 12 hours of LREC approved continuing education coursework, including any LREC mandatory course topic(s), each year to be eligible to renew tdeir license for tde next year. Continuing education courses are available tdrough LREC state certified education providers.</p>
+									<p>Inactive real estate licensees are not required to fulfill any education requirement to renew an inactive license</p>
+								</li>
+								<li>
+									<h3>Initial Licensees Only</h3>
+									<ol>
+										<li>In tde year issued, an initial licensee will only be required to complete tde mandatory continuing education requirement mentioned below prior to renewing an active license. tdis does not relieve tde licensee of tde post-licensing education mentioned below if it falls due witdin tde year tde license is issued.</li>
+										<li><i>Post-license Educabbnis</i> a specific 45-hour requirement tdat must be completed witdin 180 days from your initial/upgraded license date.</li>
+										<li><i>Continutng Educe6onis</i> an annual 12-hour requirement tdat includes hours in mandatory course topic(s) specified by tde Commission</li>
+										<li>In tde year completed, your post-licensing education hours may be used to satisfy a portion of tde 12-hour annual continuing education requirement; however, post-licensing education hours will not satisfy tde mandatory course topic(s), hours specified by tde Commission.</li>
+									</ol>
+								</li>
+							</ul>		
+							
+						</div>		
+					</div>
+				</div>
+				<div class="transcript">
+					<div class="container">
+						<div class="transcript-top">
+							<h2>License Transcript</h2>
+							<div class="bth-block">
+								<a href="#" class="bth bth-color1">Request Reporting</a>
+								<a href="#" class="bth bth-color3">compliance not met</a>
+							</div>
+						</div>
+						<div class="renewal d-flex">
+							<h3>Renewal Cycle</h3>
+							<select name="years" id="years">
+								<option value="2019">2019</option>
+								<option value="2018">2018</option>
+								<option value="2017">2017</option>
+								<option value="2016">2016</option>
+								<option value="2015">2015</option>
+								<option value="2014">2014</option>
+							</select>
+						</div>
+
+						<table class="table">
+							<tr>
+								<th>Date of Completion </th>
+								<th>Course Name</th>
+								<th>Mandatory Hours (4 Required)</th>
+								<th>Elective Hours (8 Required)</th>
+								<th>Total Hours (12 Required)</th>
+							</tr>
+							<tr>
+								<td>01/10/2019</td>
+								<td>Foreclosures, Short Sales and Tax Sales, Oh My!</td>
+								<td>0</td>
+								<td>2</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>01/10/2019</td>
+								<td>Property Owner Stuggles witd Property Claims</td>
+								<td>0</td>
+								<td>2</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>01/10/2019</td>
+								<td>Foreclosures, Short Sales and Tax Sales, Oh My!</td>
+								<td>4</td>
+								<td>0</td>
+								<td>4</td>
+							</tr>
+							<tr>
+								<td>01/10/2019</td>
+								<td>Property Owner Stuggles witd Property Claims</td>
+								<td>0</td>
+								<td>2</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>01/10/2019</td>
+								<td>Foreclosures, Short Sales and Tax Sales, Oh My!</td>
+								<td>0</td>
+								<td>2</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td colspan="2">Total Hours Obtained</td>
+								<td>4</td>
+								<td>8</td>
+								<td>12</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="container d-flex">
+					<ul>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Privacy Notice</a></li>
+						<li><a href="#">Terms of Service</a></li>
+					</ul>
+					<p class="copy-block">&copy; 2019 StateReporting, LLC. All Rights Reserved</p>
+					<div class="link-bottom d-flex">
+						<a href="#"><img src="img/McAfee.png" alt=""></a>
+						<a href="#"><img src="img/ver.png" alt=""></a>
+						<a href="#"><i class="icon-facebook"></i></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="scripts/jquery-3.3.1.min.js"></script>	
+		<script src="scripts/script.js"></script>
+		<script src="scripts/svgxuse.min.js"></script>
+	</body>
+	</html>		
+
+
+
